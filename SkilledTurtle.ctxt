@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SkilledTurtle()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ SkilledTurtle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=n
+comment2.target=void\ boxes(int)
+comment2.text=\n\ Draw\ <i>n</i>\ boxes\ within\ each\ other\n
+comment3.params=n
+comment3.target=void\ spiral(int)
+comment3.text=\n\ Draw\ a\ spiral\ of\ degree\ n\n
+comment4.params=length
+comment4.target=void\ triangle(double)
+comment4.text=\n\ Draw\ an\ equilateral\ triangle\ of\ size\ length\n
+comment5.params=length
+comment5.target=void\ square(int)
+comment5.text=\n\ Draw\ a\ square\ of\ size\ length\n
+comment6.params=
+comment6.target=void\ circle()
+comment6.text=\n\ Draw\ a\ circle\n
+comment7.params=
+comment7.target=void\ takeTurn()
+comment7.text=\n\ Increment\ turn\ modulo\ NO_OF_COLOURS\n
+comment8.params=c
+comment8.target=void\ setColor(int)
+comment8.text=\n\ Sets\ the\ color\ to\ c,\ 0\ <\=\ c\ <\ 7\n\ 0\:\ black,\ \ 1\:\ red,\ \ 2\:\ blue,\ \ 3\:\ yellow,\ \ 4\:\ green,\ \ 5\:\ magenta,\ \ 6\:\ white\n
+comment9.params=
+comment9.target=void\ jumpRandomly()
+comment9.text=\n\ Move\ the\ turtle\ to\ a\ random\ location\ in\ the\ world\n
+numComments=10

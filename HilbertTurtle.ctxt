@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HilbertTurtle()
+comment1.params=n
+comment1.target=void\ hilbertCurve(int)
+comment2.params=
+comment2.target=void\ moveEast()
+comment3.params=
+comment3.target=void\ moveSouth()
+comment4.params=
+comment4.target=void\ moveWest()
+comment5.params=
+comment5.target=void\ moveNorth()
+comment6.params=n
+comment6.target=void\ hilbertEast(int)
+comment7.params=n
+comment7.target=void\ hilbertSouth(int)
+comment8.params=n
+comment8.target=void\ hilbertWest(int)
+comment9.params=n
+comment9.target=void\ hilbertNorth(int)
+numComments=10

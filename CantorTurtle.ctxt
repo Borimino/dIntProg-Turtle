@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CantorTurtle()
+comment1.params=n\ length
+comment1.target=void\ cantorLine(int,\ double)
+comment2.params=n\ length
+comment2.target=void\ cantorCurve(int,\ double)
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=KochTurtle()
+comment1.params=n\ length
+comment1.target=void\ kochCurve(int,\ double)
+comment2.params=n\ length
+comment2.target=void\ kochFlake(int,\ double)
+numComments=3
