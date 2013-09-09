@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Act\ -\ do\ whatever\ the\ PolygonTurtle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.params=length\ sides
+comment1.target=void\ drawPolygon(int,\ int)
+comment2.params=length\ sides
+comment2.target=void\ drawStar(int,\ int)
+numComments=3
