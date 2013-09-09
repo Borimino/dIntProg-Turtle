@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class SkilledTurtle  extends Turtle
 {
-    private final int NO_OF_COLOURS = 7;
+    private final int NO_OF_COLOURS = 6;
     private int turn;
     
     public SkilledTurtle() {
@@ -23,7 +23,7 @@ public class SkilledTurtle  extends Turtle
         takeTurn();
         setColor(turn);
         jumpRandomly();
-        boxes(20);
+        spiral(40);
     }
 
     /**
@@ -31,7 +31,7 @@ public class SkilledTurtle  extends Turtle
      */
     public void boxes(int n) 
     {
-        setDelay(100);
+        setDelay(10);
         for (int i = 0; i < n; i++)
         {
             penUp();
@@ -41,7 +41,7 @@ public class SkilledTurtle  extends Turtle
             move(3);
             turn(90);
             penDown();
-            square(i*6);
+            square(i*6 + 6);
         }
     }
     
@@ -49,7 +49,12 @@ public class SkilledTurtle  extends Turtle
      * Draw a spiral of degree n
      */
     public void spiral(int n) {
-        // ...
+        setDelay(10);
+        for (int i = 0; i < n; i++)
+        {
+            move(i*3+3);
+            turn(90);
+        }
     }
     
     /**
@@ -103,9 +108,9 @@ public class SkilledTurtle  extends Turtle
             setColor("green");
         } else if ( c == 5 ) {
             setColor("magenta");
-        } else if ( c == 6 ) {
+        } /*else if ( c == 6 ) {
             setColor("white");
-        }
+        }*/
     }
     
     /**

@@ -19,7 +19,7 @@ public class HouseTurtle extends Turtle
     
     public void drawHouse()
     {
-        setDelay(200);
+        setDelay(400);
         penDown();
         move(100);
         turn(270);
