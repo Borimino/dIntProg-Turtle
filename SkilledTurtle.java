@@ -22,15 +22,27 @@ public class SkilledTurtle  extends Turtle
     public void act() {
         takeTurn();
         setColor(turn);
-        jumpRandomly();        
-        square(20);
+        jumpRandomly();
+        boxes(20);
     }
 
     /**
      * Draw <i>n</i> boxes within each other
      */
-    public void boxes(int n) {
-        // ...
+    public void boxes(int n) 
+    {
+        setDelay(100);
+        for (int i = 0; i < n; i++)
+        {
+            penUp();
+            turn(180);
+            move(3);
+            turn(90);
+            move(3);
+            turn(90);
+            penDown();
+            square(i*6);
+        }
     }
     
     /**
