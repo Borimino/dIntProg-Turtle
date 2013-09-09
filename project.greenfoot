@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Mon Sep 09 15:50:47 CEST 2013
+#Mon Sep 09 16:15:14 CEST 2013
 target10.editor.width=1303
 target2.width=100
 target8.name=PolygonTurtle
@@ -9,8 +9,8 @@ target5.naviview.expanded=true
 target1.type=ClassTarget
 target7.showInterface=false
 mainWindow.height=744
-target2.editor.y=24
-target2.editor.x=65
+target2.editor.y=-4
+target2.editor.x=64
 target1.height=50
 target8.y=370
 target8.x=10

@@ -23,7 +23,8 @@ public class SkilledTurtle  extends Turtle
         takeTurn();
         setColor(turn);
         jumpRandomly();
-        spiral(40);
+//        spiral(40);
+        boxes(Greenfoot.getRandomNumber(100)+1);
     }
 
     /**
@@ -31,7 +32,7 @@ public class SkilledTurtle  extends Turtle
      */
     public void boxes(int n) 
     {
-        setDelay(10);
+        setDelay(1);
         for (int i = 0; i < n; i++)
         {
             penUp();
